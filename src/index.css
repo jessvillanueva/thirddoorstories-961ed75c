@@ -57,10 +57,9 @@
 
 @layer base {
   *,
-  ::before,
-  ::after {
+  *::before,
+  *::after {
     border-color: transparent !important;
-    border-style: none;
   }
 
   body {
