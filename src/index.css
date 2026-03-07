@@ -56,6 +56,11 @@
 }
 
 @layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: transparent;
+  }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
