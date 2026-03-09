@@ -62,9 +62,9 @@ const mapEntries: MapEntry[] = [
   // Programs & Communities
   { name: "Socratica", type: "Community", location: "Waterloo / Remote", description: "A community of builders, researchers, and artists who get together to work on hard things. No pitch, no investors, just people making things.", tags: ["Hacker Houses", "Programs"], url: "https://www.socratica.info" },
   { name: "South Park Commons", type: "Community", location: "San Francisco", description: "A community of builders figuring out what to do next between jobs, school, and startups.", tags: ["Programs"], url: "https://southparkcommons.com" },
-  { name: "buildspace", type: "Program", location: "Remote / San Francisco", description: "Nights and weekends program for people building side projects that might turn into something real.", tags: ["Programs"], url: "https://buildspace.so" },
+  { name: "buildspace (archived)", type: "Program", location: "Remote / San Francisco", description: "Was the biggest school for people building side projects. Now shut down, but its alumni network and ethos live on.", tags: ["Programs"], url: "https://buildspace.so" },
   { name: "Minerva University", type: "Program", location: "Global", description: "A traveling university alternative built around real-world projects and global rotations.", tags: ["Programs"], url: "https://www.minerva.edu" },
-  { name: "On Deck", type: "Program", location: "Remote / Global", description: "Fellowships and communities for people starting companies, switching careers, or exploring new ideas.", tags: ["Programs", "Fellowships"], url: "https://www.beondeck.com" },
+  { name: "ODF (formerly On Deck)", type: "Program", location: "San Francisco", description: "An intense one-week in-person experience focused on meeting collaborators, exploring ideas, and gaining conviction.", tags: ["Programs", "Fellowships"], url: "https://joinodf.com" },
   { name: "HackClub", type: "Program", location: "Global / Remote", description: "A global network of high school coding clubs and maker spaces. Nonprofit supporting young hackers.", tags: ["Programs"], url: "https://hackclub.com/" },
   { name: "The Flight School", type: "Program", location: "US", description: "$10K program reinventing the gap year as an accessible, aspirational, and rebellious rite of passage.", tags: ["Programs"], url: "https://theflightschool.org/" },
 ];
