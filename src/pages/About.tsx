@@ -43,7 +43,7 @@ const About = () => {
               seizing the whispers I kept overhearing in the right communities. By the time I chose
               it at 16, I understood something most guidance counselors and college advisors never
               explain: the real infrastructure for unconventional paths already exists. It just stays
-              invisible unless you happen to find the right person, Discord server, or dinner table.
+              invisible unless someone happens to find the right person, Discord server, or dinner table.
             </p>
             <p>
               Most people never find it. That&apos;s the gap Third Door Stories exists to close.
@@ -64,8 +64,8 @@ const About = () => {
             </p>
             <p>
               Over the next few years I repeated that move at bigger scales. I found builder
-              networks like Socratica, V2, 1517 Fund, and The Residency. Not school clubs you hear
-              about in newsletters. Communities you find through late night DMs, side chats, and
+              networks like Socratica, V2, 1517 Fund, and The Residency. Not school clubs one hears
+              about in newsletters. Communities found through late night DMs, side chats, and
               half hidden posts. Same kid, different rooms. Completely different ceiling.
             </p>
             <p>
@@ -136,14 +136,14 @@ const About = () => {
               peer conversation than a polished lecture because they are.
             </p>
             <p>
-              Most education tools act like cookbooks. They give you recipes and frameworks. Third
-              Door Stories is closer to a cooking show for alternative lives. You watch someone
-              actually cook an unconventional path in real time, see the mistakes, and understand
-              what &quot;golden brown&quot; looks like before you ever try it yourself.
+              Most education tools act like cookbooks. They hand someone recipes and frameworks. Third
+              Door Stories is closer to a cooking show for alternative lives. Someone watches a person
+              actually cook an unconventional path in real time, sees the mistakes, and understands
+              what &quot;golden brown&quot; looks like before ever trying it themselves.
             </p>
             <p>
-              AI tools can tell you how to start a company. College counselors can help package a
-              project. What they can&apos;t show you is what it feels like to be 17 or 22, taking a
+              AI tools can tell someone how to start a company. College counselors can help package a
+              project. What they can&apos;t show is what it feels like to be 17 or 22, taking a
               real leap, dealing with self doubt, and shipping anyway. That emotional terrain is
               what Third Door Stories documents.
             </p>
