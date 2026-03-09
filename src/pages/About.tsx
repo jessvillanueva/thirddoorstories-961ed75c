@@ -43,7 +43,7 @@ const About = () => {
               seizing the whispers I kept overhearing in the right communities. By the time I chose
               it at 16, I understood something most guidance counselors and college advisors never
               explain: the real infrastructure for unconventional paths already exists. It just stays
-              invisible unless you happen to find the right person, Discord server, or dinner table.
+              invisible unless someone happens to find the right person, Discord server, or dinner table.
             </p>
             <p>
               Most people never find it. That&apos;s the gap Third Door Stories exists to close.
