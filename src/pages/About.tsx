@@ -1,5 +1,7 @@
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import logo1517 from "@/assets/1517-logo.png";
+import logoResidency from "@/assets/residency-logo.png";
 
 const About = () => {
   return (
@@ -154,22 +156,24 @@ const About = () => {
         </section>
 
         {/* Backed By */}
-        <section className="mt-16 flex flex-col gap-6">
+        <section className="mt-16 mb-8 flex flex-col gap-8 rounded-2xl p-8" style={{ backgroundColor: '#121212' }}>
           <h2>Backed By</h2>
-          <div className="flex flex-col gap-8">
-            <div className="flex flex-col gap-2">
-              <p className="overline text-foreground/[0.35]">1517 Medici Grant</p>
-              <p className="body-base text-foreground/[0.65]">
+          <div className="flex items-center justify-center gap-8">
+            <img src={logo1517} alt="1517 Fund" className="h-10 object-contain" />
+            <img src={logoResidency} alt="The Residency" className="h-12 object-contain" />
+          </div>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="card-surface p-6 flex flex-col gap-3">
+              <span className="overline text-primary">1517 Medici Grant</span>
+              <p className="body-small text-foreground/[0.65]">
                 A small, fast microgrant from 1517 Fund designed to help young builders ship their
                 next concrete step with no pitch deck required. Third Door Stories received a $1,000
                 Medici grant to fund early production.
               </p>
             </div>
-            <div className="flex flex-col gap-2">
-              <p className="overline text-foreground/[0.35]">
-                The Residency — Delta Chapter II Top 20
-              </p>
-              <p className="body-base text-foreground/[0.65]">
+            <div className="card-surface p-6 flex flex-col gap-3">
+              <span className="overline text-primary">The Residency — Delta Chapter II Top 20</span>
+              <p className="body-small text-foreground/[0.65]">
                 Delta Chapter II is a three week builder sprint hosted by The Residency. Third Door
                 Stories was selected as a Top 20 finalist out of over 1,500 participants globally,
                 as the only filmmaker in the cohort. The pilot episode was shot and launched there
@@ -180,19 +184,24 @@ const About = () => {
         </section>
 
         {/* Closing */}
-        <section className="mt-16 mb-8 flex flex-col gap-4 body-base text-foreground/[0.65]">
+        <section className="mt-16 mb-8 flex flex-col gap-6 body-base text-foreground/[0.65]">
           <p>
-            Third Door Stories isn&apos;t advice. It isn&apos;t &quot;follow your passion&quot; content. It
-            isn&apos;t me telling you to burn the boats and move to San Francisco.
+            I investigate what problems are out there, why they matter, and, above all, whether
+            they&apos;re worth the battle for someone. I&apos;ll let you decide if that someone might
+            be you. Let&apos;s map it.
           </p>
-          <p>
-            It&apos;s documentation. The real paths, networks, and small checks that make Door 3 less
-            mysterious and less lonely for a curious person inside modern education and work.
-          </p>
-          <p>
-            Start with Episode 0, subscribe on YouTube for full episodes, or join the Patreon for
-            full uncut interviews, case study breakdowns, and the live updated map of 25 or more
-            microgrants, 10 or more residencies, and 20 or more hacker houses.
+          <div className="flex flex-col gap-3">
+            <p>
+              🔓 <span className="text-foreground font-medium">Free:</span> Subscribe on YouTube for full episodes.
+            </p>
+            <p>
+              🗺️ <span className="text-foreground font-medium">Deeper layer:</span> Join the Patreon for full uncut
+              interviews, case-study breakdowns (timelines, financials, first-client tactics), and the
+              live-updated map of 25+ microgrants, 10+ residencies, and 20+ hacker houses.
+            </p>
+          </div>
+          <p className="text-foreground/[0.45] body-small">
+            Subjects and dates will evolve. Episodes will drop async by default as I earn access and do the work.
           </p>
         </section>
 
