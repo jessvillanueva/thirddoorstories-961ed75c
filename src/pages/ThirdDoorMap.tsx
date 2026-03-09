@@ -130,6 +130,14 @@ const ThirdDoorMap = () => {
             </a>
           ))}
         </div>
+
+        <div className="mt-12 p-6 card-surface rounded-2xl flex flex-col gap-2">
+          <p className="body-small text-foreground/[0.45]">
+            Grant data originally sourced from a spreadsheet maintained by{" "}
+            <a href="https://x.com/DStrachman" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Danielle Strachman</a>{" "}
+            at 1517 Fund. Listings may not be current — always verify details directly with each program before applying.
+          </p>
+        </div>
       </main>
       <SiteFooter />
     </div>
