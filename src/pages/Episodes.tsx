@@ -145,7 +145,7 @@ const Episodes = () => {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container-content py-12 md:py-20">
+      <main className="container-content py-12 md:py-20 animate-fade-in">
         <section className="flex flex-col gap-4 mb-12">
           <p className="overline text-foreground/70">What's coming — Season 1</p>
           <h1>Episodes</h1>

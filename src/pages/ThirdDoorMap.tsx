@@ -42,7 +42,7 @@ const ThirdDoorMap = () => {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container-content py-12 md:py-20">
+      <main className="container-content py-12 md:py-20 animate-fade-in">
         <section className="flex flex-col gap-4 mb-10">
           <span className="overline text-accent">Third Door Map</span>
           <h1>The Paths Most People Don't Know Exist</h1>

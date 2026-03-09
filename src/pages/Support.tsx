@@ -8,7 +8,7 @@ const Support = () => {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container-content py-12 md:py-20 max-w-[720px]">
+      <main className="container-content py-12 md:py-20 max-w-[720px] animate-fade-in">
         <span className="overline text-foreground/[0.35]">Support Third Door Stories</span>
         <h1 className="mt-6 mb-8">
           Help us document the paths that matter.

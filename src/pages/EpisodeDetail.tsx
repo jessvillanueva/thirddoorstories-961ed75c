@@ -11,7 +11,7 @@ const EpisodeDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="container-content py-12 md:py-20 flex flex-col gap-16 md:gap-20">
+      <main className="container-content py-12 md:py-20 flex flex-col gap-16 md:gap-20 animate-fade-in">
         {/* Main episode video */}
         <VideoCard label="Full Episode" caption="" videoId="sf-SUwdZN3A" type="youtube" />
 
