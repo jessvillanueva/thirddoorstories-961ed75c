@@ -76,10 +76,8 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Email Capture */}
-        <section>
-          <EmailCaptureBar />
-        </section>
+
+
       </main>
 
       <SiteFooter />
