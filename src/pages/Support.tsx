@@ -1,7 +1,7 @@
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-
 import { Button } from "@/components/ui/button";
+import beehiivLogo from "@/assets/beehiiv-logo.png";
 
 const PATREON_JOIN = "https://www.patreon.com/15019639/join";
 const YOUTUBE = "https://www.youtube.com/@thirddoorstories";
@@ -58,6 +58,27 @@ const Support = () => {
                 If you join the Patreon, you get the deeper infrastructure underneath the stories.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Newsletter */}
+        <section className="mb-16">
+          <div className="card-surface p-6 flex items-center justify-between gap-4 rounded-2xl">
+            <div className="flex flex-col gap-1">
+              <span className="overline text-primary">Newsletter</span>
+              <p className="body-small text-foreground/[0.65]">
+                Get the Unlatched newsletter for free, delivered to your inbox.
+              </p>
+            </div>
+            <a
+              href="https://thirddoorstories.beehiiv.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 shrink-0 px-4 py-2 rounded-xl bg-foreground/[0.05] hover:bg-foreground/[0.1] transition-colors"
+            >
+              <img src={beehiivLogo} alt="beehiiv" className="h-5 object-contain" />
+              <span className="body-small text-foreground/[0.65] font-medium">Subscribe</span>
+            </a>
           </div>
         </section>
 
