@@ -109,7 +109,7 @@ const About = () => {
             <ul className="flex flex-col gap-2 list-disc list-inside">
               <li>Won $1,000 grant from 1517 Fund</li>
               <li>Landed Top 20 in The Residency&apos;s Delta Chapter II as the only filmmaker flying solo</li>
-              <li>Finished Buildspace S5 (Top 1000) and flew to SF for demo day</li>
+              <li>Finished buildspace s5 (Top 1000) and flew to SF for demo day</li>
               <li>Spent time at Socratica nodes, Cansbridge, builder communities and legit founder events</li>
             </ul>
             <p>
