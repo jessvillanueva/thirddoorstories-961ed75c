@@ -73,7 +73,7 @@ const EmailCaptureBar = () => {
           className="flex items-center gap-1.5 text-foreground/[0.35] hover:text-foreground/[0.55] transition-colors"
         >
           <span className="text-xs">Powered by</span>
-          <img src={beehiivLogo} alt="beehiiv" className="h-4 object-contain opacity-60 hover:opacity-90 transition-opacity" />
+          <img src={beehiivLogo} alt="beehiiv" className="h-4 object-contain invert opacity-60 hover:opacity-90 transition-opacity" />
         </a>
       </div>
     </div>
