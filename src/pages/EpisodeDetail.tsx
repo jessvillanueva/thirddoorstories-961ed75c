@@ -13,18 +13,18 @@ const EpisodeDetail = () => {
       <SiteHeader />
       <main className="container-content py-12 md:py-20 flex flex-col gap-16 md:gap-20 animate-fade-in">
         {/* Main episode video */}
-        <VideoCard label="Full Episode" caption="" videoId="sf-SUwdZN3A" type="youtube" />
+        <VideoCard label="Pilot Episode" caption="" videoId="sf-SUwdZN3A" type="youtube" />
 
         {/* Episode meta + logline */}
         <section className="flex flex-col gap-4 max-w-[720px]">
-          <p className="overline text-foreground/[0.35]">May 2026 · 18 min · Season 1</p>
+          <p className="overline text-foreground/[0.35]">Nov 2025 · 4 min · Pilot</p>
           <h1>From a McDonald's Drive‑Thru to a $700M Empire</h1>
           <p className="body-base text-foreground/[0.65]">
             At 18, Brian Scudamore was the odd one out. While his friends headed to university,
             he dropped out of high school one course short of finishing. Waiting in a McDonald's
-            drive‑thru in 1989, he spotted a beat‑up pickup advertising junk removal, had a
-            "Eureka" moment, and turned $700 of savings into The Rubbish Boys — the seed of
-            1‑800‑GOT‑JUNK?, now a $700M business across Canada, the US, and Australia.
+            drive-thru in 1989, he spotted a beat-up pickup advertising junk removal, had a
+            "Eureka" moment, and turned $700 of savings into The Rubbish Boys, the seed of
+            1-800-GOT-JUNK?, now a $700M business across Canada, the US, and Australia.
           </p>
         </section>
 
@@ -32,15 +32,15 @@ const EpisodeDetail = () => {
         <section className="flex flex-col gap-4 max-w-[720px]">
           <h2>How This Story Came Together</h2>
           <p className="body-base text-foreground/[0.65]">
-            This episode traces Brian's path from hiding his junk‑removal side hustle from his
+            This episode traces Brian's path from hiding his junk-removal side hustle from his
             parents to building O2E Brands: three companies, 180+ franchise locations, and a seat
             as a Dragon on CBC's Dragons' Den. We follow the moments that don't fit neatly on a
-            résumé — dropping out, betting on a $700 truck, and learning how to sell an unglamorous
-            business door‑to‑door.
+            résumé: dropping out, betting on a $700 truck, and learning how to sell an unglamorous
+            business door-to-door.
           </p>
           <p className="body-base text-foreground/[0.65]">
             What you see in the episode is how a kid who didn't finish high school built a junk
-            empire — and what that says about who gets permission to build things, what counts as a
+            empire, and what that says about who gets permission to build things, what counts as a
             "real" path, and why the most powerful doors are often the ones no one is looking at.
           </p>
         </section>
