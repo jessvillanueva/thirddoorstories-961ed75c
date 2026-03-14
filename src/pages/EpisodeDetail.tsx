@@ -17,14 +17,14 @@ const EpisodeDetail = () => {
 
         {/* Episode meta + logline */}
         <section className="flex flex-col gap-4 max-w-[720px]">
-          <p className="overline text-foreground/[0.35]">May 2026 · 18 min · Season 1</p>
+          <p className="overline text-foreground/[0.35]">Nov 2025 · 4 min · Pilot</p>
           <h1>From a McDonald's Drive‑Thru to a $700M Empire</h1>
           <p className="body-base text-foreground/[0.65]">
             At 18, Brian Scudamore was the odd one out. While his friends headed to university,
             he dropped out of high school one course short of finishing. Waiting in a McDonald's
-            drive‑thru in 1989, he spotted a beat‑up pickup advertising junk removal, had a
-            "Eureka" moment, and turned $700 of savings into The Rubbish Boys — the seed of
-            1‑800‑GOT‑JUNK?, now a $700M business across Canada, the US, and Australia.
+            drive-thru in 1989, he spotted a beat-up pickup advertising junk removal, had a
+            "Eureka" moment, and turned $700 of savings into The Rubbish Boys, the seed of
+            1-800-GOT-JUNK?, now a $700M business across Canada, the US, and Australia.
           </p>
         </section>
 
