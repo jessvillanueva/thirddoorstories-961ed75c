@@ -104,10 +104,6 @@ const Index = () => {
           />
         </section>
 
-        {/* Bottom Substack CTA */}
-        <section className="animate-fade-in">
-          <SubstackCTA />
-        </section>
       </main>
 
       <SiteFooter />
