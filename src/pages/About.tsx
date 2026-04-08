@@ -176,7 +176,7 @@ const About = () => {
 
         {/* Backed By */}
         <section className="flex flex-col gap-8 rounded-2xl p-8" style={{ backgroundColor: '#121212' }}>
-          <h2>Backed By</h2>
+          <h2>Supported By</h2>
           <div className="flex items-center justify-center gap-8">
             <img src={logo1517} alt="1517 Fund" className="h-10 object-contain" />
             <img src={logoResidency} alt="The Residency" className="h-12 object-contain" />

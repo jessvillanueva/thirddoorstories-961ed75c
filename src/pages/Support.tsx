@@ -8,6 +8,14 @@ const YOUTUBE = "https://www.youtube.com/@thirddoorstories";
 const TWITTER = "https://x.com/jayveesme";
 const INSTAGRAM = "https://www.instagram.com/jayveesdotme";
 const PATREON_FREE = "https://www.patreon.com/cw/thirddoorstories";
+const SUBSTACK = "https://thirddoorstories.substack.com/";
+const BEEHIIV = "https://thirddoorstories.beehiiv.com/";
+
+const SubstackIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+    <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+  </svg>
+);
 
 const Support = () => {
   return (
@@ -37,6 +45,10 @@ const Support = () => {
                 <li>• Clips on X / Instagram</li>
                 <li>• Public essays and maps on Medium</li>
                 <li>• Free membership on Patreon for updates</li>
+                <li>• Newsletter on Substack or Beehiiv</li>
+                <li>• Field notes from the docuseries</li>
+                <li>• Longform profiles</li>
+                <li>• Behind-the-scenes on community and experimentation</li>
               </ul>
               <p className="body-small text-foreground/[0.45] mt-auto">
                 If you stay on free, you still get the core stories.
@@ -63,22 +75,31 @@ const Support = () => {
 
         {/* Newsletter */}
         <section className="mb-10">
-          <div className="card-surface p-6 flex items-center justify-between gap-4 rounded-2xl">
-            <div className="flex flex-col gap-1">
-              <span className="overline text-primary">Newsletter</span>
-              <p className="body-small text-foreground/[0.65]">
-                Get the Unlatched newsletter for free, delivered to your inbox.
-              </p>
+          <div className="card-surface p-6 flex flex-col gap-4 rounded-2xl">
+            <span className="overline text-primary">Newsletter</span>
+            <p className="body-small text-foreground/[0.65]">
+              Get the Unlatched newsletter for free, delivered to your inbox.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href={SUBSTACK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#FF6719] text-white font-medium hover:bg-[#FF6719]/90 transition-colors"
+              >
+                <SubstackIcon />
+                Subscribe on Substack
+              </a>
+              <a
+                href={BEEHIIV}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-foreground/[0.05] hover:bg-foreground/[0.1] transition-colors"
+              >
+                <img src={beehiivLogo} alt="beehiiv" className="h-5 object-contain invert" />
+                <span className="body-small text-foreground/[0.65] font-medium">Or via Beehiiv</span>
+              </a>
             </div>
-            <a
-              href="https://thirddoorstories.beehiiv.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 shrink-0 px-4 py-2 rounded-xl bg-foreground/[0.05] hover:bg-foreground/[0.1] transition-colors"
-            >
-              <img src={beehiivLogo} alt="beehiiv" className="h-5 object-contain invert" />
-              <span className="body-small text-foreground/[0.65] font-medium">Subscribe</span>
-            </a>
           </div>
         </section>
 
@@ -89,6 +110,17 @@ const Support = () => {
             Not everyone can pay, and that's completely fine. These help just as much:
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
+            <a href={SUBSTACK} target="_blank" rel="noopener noreferrer" className="card-surface p-5 flex flex-col gap-2 group hover:bg-[hsl(var(--card-highlight))] transition-all duration-200">
+              <span className="body-small font-medium text-foreground group-hover:text-[#FF6719] transition-colors flex items-center gap-2">
+                <SubstackIcon />
+                Subscribe on Substack
+              </span>
+              <span className="body-small text-foreground/[0.45]">The primary newsletter. Field notes, longform profiles, and updates.</span>
+            </a>
+            <a href={BEEHIIV} target="_blank" rel="noopener noreferrer" className="card-surface p-5 flex flex-col gap-2 group hover:bg-[hsl(var(--card-highlight))] transition-all duration-200">
+              <span className="body-small font-medium text-foreground group-hover:text-primary transition-colors">Subscribe on Beehiiv</span>
+              <span className="body-small text-foreground/[0.45]">Alternative newsletter option if you prefer Beehiiv.</span>
+            </a>
             <a href={YOUTUBE} target="_blank" rel="noopener noreferrer" className="card-surface p-5 flex flex-col gap-2 group hover:bg-[hsl(var(--card-highlight))] transition-all duration-200">
               <span className="body-small font-medium text-foreground group-hover:text-primary transition-colors">Subscribe on YouTube</span>
               <span className="body-small text-foreground/[0.45]">Watch full episodes for free and help the algorithm surface them.</span>
