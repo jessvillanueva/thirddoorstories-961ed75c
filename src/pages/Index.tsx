@@ -8,7 +8,10 @@ import FeaturedPost from "@/components/FeaturedPost";
 import logo1517 from "@/assets/1517-logo.png";
 import logoResidency from "@/assets/residency-logo.png";
 import essayTherapy from "@/assets/essay-therapy.jpeg";
-import socraticaSymposium from "@/assets/socratica-symposium.jpeg";
+import essayFriendship from "@/assets/essay-friendship-belonging.webp";
+import essayKai from "@/assets/essay-kai-goodall.webp";
+import essayFrontRow from "@/assets/essay-front-row.webp";
+import essayTinyTPU from "@/assets/essay-tinytpu.webp";
 
 const Index = () => {
   return (
@@ -86,22 +89,38 @@ const Index = () => {
               external
             />
             <EssayCard
-              readTime="Coming soon"
-              title="The Origins of the Underworld: How the Builder Scene Actually Started"
-              thesis="buildspace. 1517. Emergent Ventures. Y Combinator. The Thiel Fellowship's chaotic early years. The weird little rooms, Discord servers, and SF apartments where this whole ecosystem started, and why most of it stays invisible unless you're already in."
-              href="/essays/building-in-public"
-              image={socraticaSymposium}
+              readTime="On Substack"
+              title="What I Learned from Friendship, Abundance, and Lasting Belonging"
+              thesis="A reflection on crashing whisper rooms, the hidden builder world, and the questions I'm carrying."
+              href="https://open.substack.com/pub/thirddoorstories/p/what-i-learned-about-friendship-belonging"
+              image={essayFriendship}
+              external
+            />
+            <EssayCard
+              readTime="On Substack"
+              title="A Spontaneous Encounter with Kai Goodall"
+              thesis="Microgrants and rocketry, life-changing trajectories, and on the education system optimizing for 'decent outcomes for everyone.'"
+              href="https://open.substack.com/pub/thirddoorstories/p/a-spontaneous-encounter-with-kai"
+              image={essayKai}
+              external
+            />
+            <EssayCard
+              readTime="On Substack"
+              title="The Front Row Was for Hosts Only ft. Hudzah"
+              thesis="Aiming at heroes, paying it forward, and why genuine friendship and great work aren't mutually exclusive."
+              href="https://open.substack.com/pub/thirddoorstories/p/the-front-row-was-for-hosts-only"
+              image={essayFrontRow}
+              external
+            />
+            <EssayCard
+              readTime="On Substack"
+              title="A Seat at TinyTPU's Booth"
+              thesis="Here's what four young builders taught me about depth, grants, and that AI one can't download. Chips. Whiteboards. Beating imposter syndrome."
+              href="https://open.substack.com/pub/thirddoorstories/p/a-seat-at-tinytpus-booth"
+              image={essayTinyTPU}
+              external
             />
           </div>
-
-          {/* Socratica Symposium W26 */}
-          <EssayCard
-            readTime="Coming soon"
-            title="Socratica Symposium W26"
-            thesis="A look inside one of the most interesting builder gatherings happening right now. What happens when you put curious people in a room and let them figure it out together."
-            href="/essays/socratica-symposium-w26"
-            image={socraticaSymposium}
-          />
         </section>
 
       </main>
