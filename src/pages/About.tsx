@@ -17,164 +17,208 @@ const About = () => {
           I investigate the paths most people don&apos;t know exist.
         </h1>
 
-        <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
-          <p>
-            The analogy of the Third Door came from author{" "}
-            <a href="https://alexbanayan.com/the-third-door/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
-              Alex Banayan
-            </a>.
-          </p>
-          <p>
-            Banayan wrote that life is like a nightclub.
-          </p>
-          <p>
-            There&apos;s the first door where everyone waits in line, the VIP door for people who were born knowing the right names, and then there&apos;s the third door: the one down the alley where you have to bang on it a hundred times, sneak through the kitchen, and figure it out as you go.
-          </p>
-          <p>
-            There&apos;s always a way in. Most people just never find out it exists outside modern education and work.
-          </p>
-          <p>
-            Most young adults are stuck between{" "}
-            <span className="italic">&quot;get a degree else you&apos;re behind and you&apos;ll fail&quot;</span> and{" "}
-            <span className="italic">&quot;drop out and hustle.&quot;</span>{" "}
-            The problem? No one ever really shows them what&apos;s actually in between.
-          </p>
-          <p>
-            Third Door Stories is a small documentary studio and essay lab mapping the hidden builder ecosystem most college admissions officers have never heard of.
-          </p>
-        </div>
-
-        <hr className="my-7 border-foreground/10" />
-
-        {/* The Information Gap */}
+        {/* The Analogy */}
         <section className="flex flex-col gap-5">
-          <h2>The Information Gap</h2>
+          <h2>The Analogy</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
-              At 15, I stared down three options:
-            </p>
-            <ul className="flex flex-col gap-2 list-none pl-0">
-              <li><span className="text-foreground font-medium">Door 1:</span> A $52K business and tech degree and a comfy analyst or IT job</li>
-              <li><span className="text-foreground font-medium">Door 2:</span> Elite connections and inherited access I didn&apos;t really have</li>
-              <li><span className="text-foreground font-medium">Door 3:</span> Creating my own opportunities and actually learning how to help people from scratch</li>
-            </ul>
-            <p>
-              I had no choice but to take it a year later at 16. Nobody taught me what it was really like.
+              Author{" "}
+              <a href="https://alexbanayan.com/the-third-door/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
+                Alex Banayan
+              </a>{" "}
+              wrote that life is like a nightclub.
             </p>
             <p>
-              I relied on integrity, persistence with curiosity, and continuously seizing the whispers around me to hear about such places and build real relationships with such people.
+              There&apos;s the first door. The main entrance. Everyone waits in line, follows the rules, and hopes their name gets called.
             </p>
             <p>
-              The real infrastructure for taking risks in my 20s already exists. It just stood invisible unless I happened to find the right person, post, or community.
+              There&apos;s the second door. The VIP entrance. For people who were born knowing the right names, the right zip codes, the right families.
             </p>
             <p>
-              Most people who found themselves staring out the window watching the stars wondering what more could be out there mostly never find it. Nobody has fully made this hidden world emotionally legible and interconnected beyond piecing it through whispers, forums, threads, communities, and spreadsheets.
+              And then there&apos;s the third door. The one down the alley. No sign. You bang on it a hundred times. You sneak through the kitchen. You figure it out as you go.
             </p>
             <p>
-              That&apos;s the gap Third Door Stories exists to close.
+              There&apos;s always a way in. Most people just never find out it exists because nobody inside modern education or work ever told them to look.
             </p>
           </div>
         </section>
 
-        <hr className="my-7 border-foreground/10" />
-
-        {/* From Bus Rides to Possibilities */}
-        <section className="flex flex-col gap-5">
-          <h2>From Bus Rides to Possibilities</h2>
+        {/* The Gap I Couldn't Ignore */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>The Gap I Couldn&apos;t Ignore</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
-              When I was 14 in my final year of middle school, I stayed ahead in all my classes, convinced my teachers to excuse me out early, and rode a bus every month to crash a science club in high school. The older kids literally played with fire and blew up bottles with baking soda and vinegar. Our irrationally passionate science teacher lit flames in our hearts to nerd out, stay weird, and be curious.
+              Most young adults are stuck between two stories. Get a degree or you&apos;re behind and you&apos;ll fail. Drop out and hustle. Nobody ever actually shows them what&apos;s in between.
+            </p>
+            <p>
+              At 15, I was staring at three versions of my life.
+            </p>
+            <ul className="flex flex-col gap-2 list-none pl-0">
+              <li><span className="text-foreground font-medium">Door 1.</span> A $52K business and tech degree and a career I could see the entire shape of before I ever started.</li>
+              <li><span className="text-foreground font-medium">Door 2.</span> Elite connections and inherited access I didn&apos;t have.</li>
+              <li><span className="text-foreground font-medium">Door 3.</span> Creating my own opportunities from scratch, with no map.</li>
+            </ul>
+            <p>
+              I took Door 3 at 16. Not because it was the inspiring choice. Because I&apos;d gotten close enough to the first door to see what it actually looked like up close. Chasing 80 credits through a regular high school life felt less like building something real and more like playing a game with rules I didn&apos;t write. The social and environmental dynamics were crushing to go through day in and out.
+            </p>
+            <p>
+              So I chose a 5-course adult diploma in British Columbia and a radically independent education instead.
+            </p>
+            <p>
+              Nobody taught me what that was going to feel like. I relied on integrity, persistence, and seizing the whispers.
+            </p>
+          </div>
+        </section>
+
+        {/* The Bus Ride That Reset My Ceiling */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>The Bus Ride That Reset My Ceiling</h2>
+          <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
+            <p>
+              It started at 14, in my final year of middle school.
+            </p>
+            <p>
+              I stayed ahead in all my classes, convinced my teachers to excuse me early, and rode a bus every month to crash a science club at my local high school. The older kids played with fire and blew up bottles with baking soda and vinegar. Our irrationally passionate science teacher lit flames in our hearts to nerd out, stay weird, and be curious.
             </p>
             <p>
               That one room reset my ceiling for what was possible.
             </p>
             <p>
-              Over the next few years, I repeated that move at bigger scales. I stumbled upon quirky yet real places and communities with people who deserved far more attention than what they got: Socratica, 1517 Fund, Cansbridge, and The Residency. These aren&apos;t school clubs. These are circles I heard through seizing the whispers. Same small-city yet high-energy girl, completely different ceiling.
+              Over the next few years I kept repeating that move at bigger scales. I found rooms that weren&apos;t school clubs and weren&apos;t LinkedIn networks. Small. Not optimized for virality. Real. The currency was karma, integrity, and paying it forward. I arrived as the youngest person in most of them, still putting my ikigai together in puzzle pieces, more interested in friendship and learning than in being the smartest person there.
             </p>
             <p>
-              By 16, I realized the full track ahead of me: business school, small business consulting, a comfy and respectable career.
+              Socratica. 1517 Fund. Cansbridge. The Residency.
             </p>
             <p>
-              It was surely educational and informative with a lot of cool places and smart people. I could also feel that it&apos;s not necessarily the most fulfilling for me.
-            </p>
-            <p>
-              I&apos;d spent enough time doing real business cases and in environments to see reality over fantasy. Spending seven more years optimizing for that path would be lots of learning with cool people. I also didn&apos;t see how greener the other side actually was because I&apos;ve crumbled so much under heavy dynamics.
-            </p>
-            <p>
-              So I pivoted. From a full university business degree to advocating for a five-course adult diploma. From the business and IT path to independent building in social good and documentary filmmaking.
-            </p>
-            <p>
-              Along my way, I slowly earned my way into the builder world:
-            </p>
-            <ul className="flex flex-col gap-2 list-disc list-inside">
-              <li>Won $1,000 grant from 1517 Fund</li>
-              <li>Landed Top 20 in The Residency&apos;s Delta Chapter II as the only filmmaker flying solo</li>
-              <li>Finished buildspace s5 (Top 1000) and flew to SF for demo day</li>
-              <li>Spent time at Socratica nodes, Cansbridge, builder communities and legit founder events</li>
-            </ul>
-            <p>
-              My first fan who paid for the Patreon even when I didn&apos;t pitch to her told me exactly what she valued:{" "}
-              <span className="italic">&quot;the part about the hacker houses, residencies, and microgrants.&quot;</span>
-            </p>
-            <p>
-              That was the moment investigating this world felt necessary as a long-term endeavor over a one-off film.
+              I found nearly all of them through DMs, word of mouth, and seizing the right whisper at the right time. No guidance counsellor told me these existed. No college admissions officer has heard of most of them.
             </p>
           </div>
         </section>
 
-        <hr className="my-7 border-foreground/10" />
-
-        {/* A Map of the Messy Middle */}
-        <section className="flex flex-col gap-5">
-          <h2>A Map of the Messy Middle</h2>
+        {/* What I've Earned Getting Here */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>What I&apos;ve Earned Getting Here</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
-              Third Door Stories is a documentary series and essay lab about the identity shifts, critical decisions, and messy middles of builders who took the third door and the real infrastructure that made it viable.
+              With borrowed gear from a university library and an iPhone SE, I cold-emailed Brian Scudamore, founder of 1-800-GOT-JUNK. Within 24 days I had filmed a 30-minute Zoom interview, cut it to a 4-minute pilot documentary, and published it publicly.
             </p>
             <p>
-              Episodes run long-form and particularly look at the parts that don&apos;t fit neatly on a résumé like money stress, departures, family chats, and the months where nothing works. Outcomes are context, not the whole story.
+              That same year I entered Delta Chapter II by The Residency as the only filmmaker in a deeptech cohort of over 1,500 global applicants. I made Top 20 as the second youngest selected at 17 and stood in front of 150+ founders and investors in the Bay Area presenting a film storyboard.
             </p>
             <p>
-              I&apos;m mapping:
+              Danielle Strachman at 1517 Fund gave me a $1,000 USD Medici Grant for my documentary work and newsletter coverage. She noted my eagerness to learn and said: <span className="italic">&quot;If I talk to her in November about goals X, Y and Z, she&apos;s done by December.&quot;</span>
             </p>
+            <p>
+              Then something unexpected happened. A subscriber from Singapore who had been covering startups and venture capital for 5+ years found me and reached out unsolicited. She paid for the Patreon out of pocket and told me exactly what she valued: <span className="italic">&quot;the part about the hacker houses, residencies, and microgrants.&quot;</span> I never pitched to her. She just found the work.
+            </p>
+            <p>
+              That was the moment this stopped feeling like a one-off film and started feeling like an episodic show I am the main character of.
+            </p>
+          </div>
+        </section>
+
+        {/* What Third Door Stories Actually Is */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>What Third Door Stories Actually Is</h2>
+          <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
+            <p>
+              Third Door Stories is a documentary series and essay lab mapping the hidden builder ecosystem most college admissions officers have never heard of.
+            </p>
+            <p>
+              Episodes run long-form and deliberately look at the parts that don&apos;t fit neatly on a résumé. Money stress. Departures. Hard family conversations. The months where nothing works. Outcomes are context, not the whole story.
+            </p>
+            <p>I&apos;m mapping:</p>
             <ul className="flex flex-col gap-2 list-disc list-inside">
               <li>Microgrants like 1517 Medici, Emergent Ventures, and Bagel Fund</li>
-              <li>Residencies like Nautilus, The Residency, Edge City</li>
-              <li>Hacker houses like FR8</li>
+              <li>Residencies like Nautilus, The Residency, and Edge City</li>
+              <li>Hacker houses like FR8 and others doing quiet, serious work</li>
               <li>Fellowships like On Deck and Z Fellows</li>
-              <li>Builder communities like Socratica, Verci, Cansbridge, f.inc, and others doing quiet yet serious work</li>
+              <li>Builder communities like Socratica, Cansbridge, f.inc, and Verci</li>
               <li>First client stories, product validation without VC, and navigating family pressure when going off script</li>
             </ul>
+            <p>
+              Alongside every episode, I&apos;m building a living directory of 25+ microgrants, 10+ residencies, and 20+ hacker houses. Searchable infrastructure, not just content. The kind of thing a stressed 17-year-old can open at 2am and find an actual next step to click and apply to. Every new episode adds a node. The map outlasts any single film.
+            </p>
           </div>
         </section>
 
-        <hr className="my-7 border-foreground/10" />
-
-        {/* Peer Documentation */}
-        <section className="flex flex-col gap-5">
-          <h2>Peer Documentation &gt; Polished Hindsight</h2>
+        {/* Why the Filmmaker Is Also the Subject */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>Why the Filmmaker Is Also the Subject</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
-              I&apos;m not a grown adult looking back with tidy hindsight. I&apos;m 18, in Vancouver, living the tradeoffs I&apos;m investigating.
+              I&apos;m not a journalist covering this ecosystem from the outside.
             </p>
             <p>
-              Most education hands students a recipe. Third Door Stories is closer to a cooking show for twisty lives; I want viewers to watch someone actually cook a high-risk, high-reward path, see the oversights with the recovery moments, and witness what golden brown looks like before they actually try it themselves.
+              I&apos;m 18, in Vancouver, living the exact tradeoffs I&apos;m investigating. Every subject I interview is someone I found the same way my viewers will: through DMs, specific communities, and word of mouth. That&apos;s not a style choice. It&apos;s the point.
             </p>
             <p>
-              An AI tool can tell someone how to start a company. A college counselor can help package an ambitious high schooler&apos;s achievements and projects. What neither can show someone is what it actually feels like to be 17 or 22, taking the leap betting on themselves, and shipping anyway under self-doubt. I&apos;m investigating the emotional terrain.
+              When production teams made videos about buildspace or Founders Inc alumni, they were looking in. Here, the filmmaker is the subject and the subject is still mid-story. There is no separation between the camera and the life.
             </p>
             <p>
-              There are no university partners deciding which stories are on brand, no investors pushing for hyper growth, and no film school gatekeeping what counts as real cinema.
+              Most education hands students a recipe. Third Door Stories is closer to watching someone actually cook than reading one. I want viewers to watch someone work a high-risk, high-reward path in real time, see the oversights alongside the recovery moments, and know what it looks and feels like before they ever try their own version. That&apos;s what actually changes behavior. Not information. Modeled experience.
             </p>
             <p>
-              By 2030, I want to see how much exploring third doors for a curious yet ambitious person can feel as normal and legible as writing a college application essay.
+              An AI tool can tell someone how to start a company. A college counsellor can package an ambitious high schooler&apos;s achievements. What neither can show is what it actually feels like to be 17 or 22, betting on yourself, and shipping anyway under self-doubt. That&apos;s the emotional terrain I&apos;m investigating.
+            </p>
+            <p>
+              No university partners deciding which stories are on brand. No investors pushing for hyper growth. No film school gatekeeping what counts as real cinema.
             </p>
           </div>
         </section>
 
-        <hr className="my-7 border-foreground/10" />
+        {/* What This Is Not */}
+        <section className="flex flex-col gap-5 mt-12">
+          <h2>What This Is Not</h2>
+          <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
+            <p>Third Door Stories isn&apos;t advice.</p>
+            <p>It isn&apos;t &quot;follow your passion.&quot;</p>
+            <p>It isn&apos;t me telling you to burn the boats and go move to San Francisco.</p>
+            <p>
+              It&apos;s documentation. It&apos;s where I delve into the real paths, networks, and small checks that make a third door less mysterious and less lonely for a curious person navigating modern education and work.
+            </p>
+            <p>I&apos;m building this long-term because I&apos;m obsessed with questions like:</p>
+            <ul className="flex flex-col gap-2 list-none pl-0 italic text-foreground/80">
+              <li>What&apos;s actually worth solving?</li>
+              <li>Who gets to see the real menu of options?</li>
+              <li>And what can storytelling do that AI tools, college counselling, and yet another app can&apos;t?</li>
+            </ul>
+            <p>
+              Third Door Stories doesn&apos;t answer &quot;What problem should you solve?&quot; It gives you perspectives from real builders and the places they live and work so you can ask yourself: What problem do I want to solve? Why does it matter to me? Given who I am and where I am, what&apos;s actually worth fighting for?
+            </p>
+            <p>
+              I investigate what problems are out there, why they matter, and whether they&apos;re worth the battle for someone. I&apos;ll let you decide if that someone might be you.
+            </p>
+          </div>
+        </section>
 
-        {/* Backed By */}
+        {/* The Moonshot */}
+        <section className="flex flex-col gap-5 mt-12 mb-12">
+          <h2>The Moonshot</h2>
+          <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
+            <p>
+              By 2030, I want choosing a third door to feel as emotionally legible and socially normal as writing a college application essay.
+            </p>
+            <p>I grew up hacking my way into better rooms.</p>
+            <p>
+              Now I&apos;m building the camera, the story, and the map so the next hungry young person doesn&apos;t have to do it alone.
+            </p>
+            <p className="text-foreground font-medium">Let&apos;s map it.</p>
+            <div className="flex flex-col gap-3">
+              <p>
+                🔓 <span className="text-foreground font-medium">Free.</span> Subscribe on YouTube for full episodes.
+              </p>
+              <p>
+                🗺️ <span className="text-foreground font-medium">Deeper layer.</span> Join the Patreon for full uncut interviews, case-study breakdowns with timelines and first client tactics, direct access to me and a community of like-minded thinkers, and a live-updated directory of 25+ microgrants, 10+ residencies, and 20+ hacker houses.
+              </p>
+            </div>
+            <p className="text-foreground/50 text-sm">
+              Subjects and dates will evolve. Episodes drop async by default as I earn access and do the work.
+            </p>
+          </div>
+        </section>
+
+        {/* Supported By */}
         <section className="flex flex-col gap-8 rounded-2xl p-8" style={{ backgroundColor: '#121212' }}>
           <h2>Supported By</h2>
           <div className="flex items-center justify-center gap-8">
@@ -191,7 +235,7 @@ const About = () => {
               </p>
             </div>
             <div className="card-surface p-6 flex flex-col gap-3">
-              <span className="overline text-primary">The Residency — Delta Chapter II Top 20</span>
+              <span className="overline text-primary">The Residency, Delta Chapter II Top 20</span>
               <p className="body-small text-foreground/[0.65]">
                 Delta Chapter II is a three week builder sprint hosted by The Residency. Third Door
                 Stories was selected as a Top 20 finalist out of over 1,500 participants globally,
@@ -199,63 +243,6 @@ const About = () => {
                 in 24 days.
               </p>
             </div>
-          </div>
-        </section>
-
-        <hr className="my-7 border-foreground/10" />
-
-        {/* Unlatching Third Doors */}
-        <section className="flex flex-col gap-5">
-          <h2>Unlatching Third Doors</h2>
-          <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
-            <p>
-              Third Door Stories isn&apos;t advice.
-            </p>
-            <p>
-              Third Door Stories isn&apos;t &quot;follow your passion.&quot;
-            </p>
-            <p>
-              Third Door Stories isn&apos;t me telling you to burn the boats and go move to San Francisco.
-            </p>
-            <p>
-              It&apos;s documentation. It&apos;s where I delve into the real paths, networks, and small checks that make a third door less mysterious and less lonely for a curious person within modern education and work.
-            </p>
-            <p>
-              I&apos;m building media long-term because I&apos;m obsessed with questions like:
-            </p>
-            <ul className="flex flex-col gap-2 list-none pl-0 italic text-foreground/80">
-              <li>What&apos;s actually worth solving?</li>
-              <li>Who gets to see the real menu of options?</li>
-              <li>And what can storytelling do that AI tools, college counseling, and yet another app can&apos;t?</li>
-            </ul>
-            <p>
-              Third Door Stories doesn&apos;t answer, &quot;What problem should you solve?&quot;
-            </p>
-            <p>
-              It gives you perspectives from real builders and the places they live and work so you can ask:
-            </p>
-            <ul className="flex flex-col gap-2 list-none pl-0 italic text-foreground/80">
-              <li>&quot;What problem do I want to solve?&quot;</li>
-              <li>&quot;Why does it matter to me?&quot;</li>
-              <li>Above all, &quot;Given who I am and where I am, what&apos;s actually worth fighting for?&quot;</li>
-            </ul>
-            <p>
-              I investigate what problems are out there, why they matter, and, above all, whether they&apos;re worth the battle for someone. I&apos;ll let you decide if that someone might be you.
-            </p>
-            <p className="text-foreground font-medium">
-              Let&apos;s map it.
-            </p>
-            <div className="flex flex-col gap-3">
-              <p>
-                🔓 <span className="text-foreground font-medium">Free:</span> Subscribe on YouTube for full episodes.
-              </p>
-              <p>
-                🗺️ <span className="text-foreground font-medium">Deeper layer:</span> Join the Patreon for full uncut interviews, case-study breakdowns (timelines, financials, first client tactics), direct access to me and a community of like-minded thinkers, and live updates of 25+ microgrants, 10+ residencies, and 20+ hacker houses.
-              </p>
-            </div>
-            <p className="text-foreground/50 text-sm">
-              Subjects and dates will evolve. Episodes will drop async by default as I earn access and do the work!
-            </p>
           </div>
         </section>
 
