@@ -19,7 +19,7 @@ const About = () => {
 
         {/* The Analogy */}
         <section className="flex flex-col gap-5">
-          <h2>The Analogy</h2>
+          <h2>Life Is a Nightclub</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               Author{" "}
@@ -45,7 +45,7 @@ const About = () => {
 
         {/* The Gap I Couldn't Ignore */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>The Gap I Couldn&apos;t Ignore</h2>
+          <h2>Nobody Shows You the Middle</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               Most young adults are stuck between two stories. Get a degree or you&apos;re behind and you&apos;ll fail. Drop out and hustle. Nobody ever actually shows them what&apos;s in between.
@@ -72,7 +72,7 @@ const About = () => {
 
         {/* The Bus Ride That Reset My Ceiling */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>The Bus Ride That Reset My Ceiling</h2>
+          <h2>One Room Changed Everything</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               It started at 14, in my final year of middle school.
@@ -97,7 +97,7 @@ const About = () => {
 
         {/* What I've Earned Getting Here */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>What I&apos;ve Earned Getting Here</h2>
+          <h2>How I Earned My Way In</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               With borrowed gear from a university library and an iPhone SE, I cold-emailed Brian Scudamore, founder of 1-800-GOT-JUNK. Within 24 days I had filmed a 30-minute Zoom interview, cut it to a 4-minute pilot documentary, and published it publicly.
@@ -119,7 +119,7 @@ const About = () => {
 
         {/* What Third Door Stories Actually Is */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>What Third Door Stories Actually Is</h2>
+          <h2>The Map I&apos;m Building</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               Third Door Stories is a documentary series and essay lab mapping the hidden builder ecosystem most college admissions officers have never heard of.
@@ -144,7 +144,7 @@ const About = () => {
 
         {/* Why the Filmmaker Is Also the Subject */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>Why the Filmmaker Is Also the Subject</h2>
+          <h2>The Camera Is Also the Subject</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               I&apos;m not a journalist covering this ecosystem from the outside.
@@ -169,7 +169,7 @@ const About = () => {
 
         {/* What This Is Not */}
         <section className="flex flex-col gap-5 mt-12">
-          <h2>What This Is Not</h2>
+          <h2>Not Advice. Documentation.</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>Third Door Stories isn&apos;t advice.</p>
             <p>It isn&apos;t &quot;follow your passion.&quot;</p>
@@ -194,7 +194,7 @@ const About = () => {
 
         {/* The Moonshot */}
         <section className="flex flex-col gap-5 mt-12 mb-12">
-          <h2>The Moonshot</h2>
+          <h2>Normal by 2030</h2>
           <div className="flex flex-col gap-5 body-base text-foreground/[0.65]">
             <p>
               By 2030, I want choosing a third door to feel as emotionally legible and socially normal as writing a college application essay.
